@@ -1,5 +1,5 @@
 # README
-
+[![Codeship Status for kmsrankin/character-generator](https://app.codeship.com/projects/82a193f0-49e1-0137-aa25-6e6a38667907/status?branch=master)](https://app.codeship.com/projects/338367)
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
