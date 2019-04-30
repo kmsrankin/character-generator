@@ -1,2 +1,8 @@
 <h1> <%= @story.name %> </h1>
 <h3> <%= @story.theme %> </h3>
+
+<ul>
+  <% @narrations.each do |narration| %>
+    <li><%= narration.body %></li>
+  <% end %>
+</ul>
