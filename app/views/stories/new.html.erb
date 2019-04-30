@@ -1,0 +1,17 @@
+<h1>Begin your own story...</h1>
+
+<%= form_for(@story) do |f| %>
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :theme %><br />
+    <%= f.text_field :theme %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Embark!" %>
+  </div>
+<% end %>
