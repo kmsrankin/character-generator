@@ -1,0 +1,17 @@
+<h1>Make Your Own Card Here!</h1>
+
+<%= form_for(@card) do |f| %>
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :flavor_text %><br />
+    <%= f.text_field :flavor_text %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Manifest!" %>
+  </div>
+<% end %>
