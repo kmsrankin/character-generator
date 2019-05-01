@@ -6,3 +6,14 @@
     <li><%= narration.body %></li>
   <% end %>
 </ul>
+
+<%= form_for([@story, @narration]) do |f| %>
+  <div class="field">
+    <%= f.label :body %><br />
+    <%= f.text_field :body %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Confirm Action" %>
+  </div>
+<% end %>
