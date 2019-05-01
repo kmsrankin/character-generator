@@ -6,6 +6,7 @@ class StoriesController < ApplicationController
   def show
     @story = Story.find(params[:id])
     @narrations = Narration.where(story_id: params[:id])
+    @narration = Narration.new
   end
 
   def new
