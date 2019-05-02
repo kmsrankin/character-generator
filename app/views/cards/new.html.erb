@@ -6,10 +6,13 @@
     <%= f.text_field :name %>
   </div>
 
+
   <div class="field">
     <%= f.label :flavor_text %><br />
     <%= f.text_field :flavor_text %>
   </div>
+
+  <%= f.file_field :image %>
 
   <div class="actions">
     <%= f.submit "Manifest!" %>

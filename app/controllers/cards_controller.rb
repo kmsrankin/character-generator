@@ -25,6 +25,6 @@ class CardsController < ApplicationController
 
   private
   def card_params
-    params.require(:card).permit(:name, :flavor_text)
+    params.require(:card).permit(:name, :image, :flavor_text)
   end
 end
